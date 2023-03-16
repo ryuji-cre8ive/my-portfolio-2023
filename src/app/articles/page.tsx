@@ -88,7 +88,7 @@ const articleData = [
 export default function Articles() {
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-4 justify-items-center text-center mt-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center text-center mt-4">
         {articleData.map((data) => (
           <ArticleCard
             key={data.title}

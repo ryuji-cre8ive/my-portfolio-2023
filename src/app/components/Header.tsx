@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import "../globals.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,7 +11,7 @@ export default function Header() {
   const ChangeTab = (tab: number) => {
     return setOpenTab(tab);
   };
-  return(
+  return (
     <>
       <div className="text-center justify-center bg-stone-100 mt-8 font-mono relative">
         <a className="absolute" href="https://github.com/ryuji-cre8ive">
@@ -123,5 +123,5 @@ export default function Header() {
         </div>
       </div>
     </>
-  )
+  );
 }
