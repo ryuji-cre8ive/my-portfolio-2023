@@ -1,5 +1,5 @@
 export const metadata = {
-  'title': 'ryuji-portfolio',
+  title: 'ryuji-portfolio',
   twitter: {
     card: 'summary_large_image',
     title: 'Ryuji-portfolio',
