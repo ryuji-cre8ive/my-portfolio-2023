@@ -1,3 +1,13 @@
+export const metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ryuji-portfolio',
+    description: 'Portfolio made by ryuji-cre8ive',
+    creator: '@ryuji-cre8ive',
+    images: ['https://ryuji-portfolio-2023.vercel.app/logo.png'],
+  }
+}
+
 export default function Home() {
   return (
     <>
